@@ -1,0 +1,67 @@
+title: royforge
+logo: /assets/logo/royforge-logo.svg
+author: ROYFORGE
+email: royforge@gmail.com
+description: > # this means to ignore newlines until "plugins:"
+  Software projects, apps, articles, videos, tutorials, books 
+  by Koyeli Roy and Pradyumna Roy (Prady Roy). Excellent resources 
+  on microservices, devops, automation, management and kids 
+  programming.
+  
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+# Royforge date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+royforge:
+  date_format: "%b %-d, %Y"
+  # generate social links in footer
+  social_links:
+    github: royforge
+    # rss: rss  
+    facebook: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    twitter: jekyllrb
+    # youtube: royforge
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - index.md
+  - projects.md
+  - apps.md
+  - books.md
+  - blogs.md
+  - vlog.md
+  - authors.md
+
+home_grid:
+  - title: Projects  
+    url: /projects/
+    image: /assets/img/royforge-projects.jpg
+  - title: Apps
+    url: /apps/
+    image: /assets/img/royforge-apps.jpg
+  - title: Books
+    url: /books/
+    image: /assets/img/royforge-books.jpg
+  - title: Prady's Blog
+    url: /projects/
+    image: /assets/img/pradyroy-blog.jpg
+  - title: Koyeli's Blog
+    url: /projects/
+    image: /assets/img/koyeliroy-blog.jpg
+  - title: Vlog
+    url: /vlog/
+    image: /assets/img/royforge-videos.jpg
+  - title: Koyeli Roy
+    url: /projects/
+    image: /assets/img/koyeliroy-profile.jpg
+  - title: Pradyumna Roy (Prady Roy)
+    url: /projects/
+    image: /assets/img/pradyroy-profile.jpg

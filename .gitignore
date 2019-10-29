@@ -1,0 +1,9 @@
+.bundle
+.sass-cache
+Gemfile.lock
+_site
+*.gem
+.jekyll-metadata
+# System Files
+.DS_Store
+Thumbs.db

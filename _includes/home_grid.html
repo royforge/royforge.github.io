@@ -1,0 +1,38 @@
+<div id="postgrid">
+    <div class="grid">
+		<div class="grid-sizer"></div>			
+		{%- for post in site.home_grid -%}
+		<div class="grid-item">	  
+			<a href="{{ post.url }}" target="_blank">
+				<img src="{{ post.image }}" />          		
+          	</a>				
+		</div>		
+		{%- endfor -%}		
+	</div>
+</div>
+
+<script type="text/javascript" src="{{ "/assets/js/masonry.pkgd.min.js"  | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/imagesloaded.pkgd.min.js"  | relative_url }}"></script>
+<script type="text/javascript">
+	function applyMasonryGrid() {
+		// init Masonry
+		var $grid = $('.grid').masonry({
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-sizer',
+			gutter: 10,
+			fitWidth: true
+		});
+		  // layout Masonry after each image loads
+		  $grid.imagesLoaded().progress( function() {
+		    $grid.masonry();
+		  });  
+		}
+
+	$(function() {
+		applyMasonryGrid();
+	});
+		
+	$(window).resize(function() {
+		applyMasonryGrid();
+	});
+</script>
