@@ -3,8 +3,8 @@
 		<div class="grid-sizer"></div>			
 		{%- for post in site.home_grid -%}
 		<div class="grid-item">	  
-			<a href="{{ post.url }}" target="_blank">
-				<img src="{{ post.image }}" />          		
+			<a href="{{ post.url }}">	
+				<img src="{{ post.image }}" title="{{ post.title }}"/>          		
           	</a>				
 		</div>		
 		{%- endfor -%}		
