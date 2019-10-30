@@ -8,6 +8,6 @@
 layout: home
 title: home
 permalink: /
-image: /assets/logo/royforge-logo-no-bg.png
+image: /assets/logo/royforge-logo-white-bg.png
 ---
 Software projects, apps, articles, videos, tutorials, books forged by Koyeli Roy and Pradyumna Roy (Prady Roy) on microservices, reactive programming, devops, management and kids programming.
