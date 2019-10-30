@@ -8,4 +8,5 @@
 layout: home
 title: blogs
 permalink: /blogs/
+image: /assets/logo/royforge-logo-no-bg.png
 ---

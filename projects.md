@@ -8,4 +8,5 @@
 layout: home
 title: projects
 permalink: /projects/
+image: /assets/logo/royforge-logo-no-bg.png
 ---

@@ -8,4 +8,5 @@
 layout: home
 title: authors
 permalink: /authors/
+image: /assets/logo/royforge-logo-no-bg.png
 ---

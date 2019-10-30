@@ -8,4 +8,5 @@
 layout: home
 title: apps
 permalink: /apps/
+image: /assets/logo/royforge-logo-no-bg.png
 ---

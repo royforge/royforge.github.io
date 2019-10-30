@@ -8,4 +8,5 @@
 layout: home
 title: vlog
 permalink: /vlog/
+image: /assets/logo/royforge-logo-no-bg.png
 ---

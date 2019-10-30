@@ -8,4 +8,5 @@
 layout: home
 title: books
 permalink: /books/
+image: /assets/logo/royforge-logo-no-bg.png
 ---
