@@ -19,13 +19,14 @@ royforge:
   social_links:
     github: royforge
     # rss: rss  
-    facebook: jekyll
-    instagram: jekyll
-    linkedin: jekyll
-    twitter: jekyllrb
+    facebook: royforge.in
+    # instagram: royforge
+    linkedin1: pradyroy
+    linkedin2: koyeliroy
+    # twitter: royforge
     # youtube: royforge
-    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    youtube_channel_name: CloudCannon
+    youtube_channel: UCjKIkD8mJBomisa5Mp_3Kvw
+    youtube_channel_name: royforge
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
