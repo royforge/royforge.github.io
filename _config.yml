@@ -3,11 +3,9 @@ logo: /assets/logo/royforge-logo.svg
 author: ROYFORGE
 email: royforge@gmail.com
 description: > # this means to ignore newlines until "plugins:"
-  Software projects, apps, articles, videos, tutorials, books 
-  by Koyeli Roy and Pradyumna Roy (Prady Roy). Excellent resources 
-  on microservices, devops, automation, management and kids 
-  programming.
-  
+  Software projects, apps, articles, videos, tutorials, books forged 
+  by Koyeli Roy and Pradyumna Roy (Prady Roy) on microservices, 
+  reactive programming, devops, management and kids programming.
 
 plugins:
  - jekyll-feed
