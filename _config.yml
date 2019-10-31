@@ -50,10 +50,10 @@ home_grid:
     url: /books/
     image: /assets/img/royforge-books.jpg
   - title: Prady's Blog
-    url: /projects/
+    url: https://medium.com/@pradyroy
     image: /assets/img/pradyroy-blog.jpg
   - title: Koyeli's Blog
-    url: /projects/
+    url: https://medium.com/@koyeliroy
     image: /assets/img/koyeliroy-blog.jpg
   - title: Vlog
     url: /vlog/
