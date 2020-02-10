@@ -5,8 +5,9 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
-title: blogs
-permalink: /blogs/
+layout: page
+title: apps
+permalink: /apps/
 image: /assets/logo/royforge-logo-no-bg.png
 ---
+Test

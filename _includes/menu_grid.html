@@ -1,0 +1,18 @@
+<div id="menugrid">
+    <div class="grid">
+		<div class="grid-sizer col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"></div>			
+		{%- for menuitem in site.menu -%}
+		<div class="grid-item  col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">	 
+			{% assign startsWith = 'http' %}
+			{% assign checkArray = menuitem.url | split:startsWith %}
+  			{% if checkArray[0] == '' %}
+  			<a href="{{ menuitem.url }}" target="_blank">	
+			{% else %}
+  			<a href="{{ menuitem.url  | relative_url  }}">	
+			{% endif %} 	
+				<img src="{{ menuitem.image  | relative_url }}" title="{{ menuitem.title }}"/>          		
+          	</a>				
+		</div>		
+		{%- endfor -%}		
+	</div>
+</div>

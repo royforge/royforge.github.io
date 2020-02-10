@@ -5,8 +5,9 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: home
-title: authors
-permalink: /authors/
-image: /assets/logo/royforge-logo-no-bg.png
+layout: page
+title: Letter Count
+permalink: /lettercount
+image: /assets/logo/royforge-logo-white-bg.png
 ---
+{%- include app-letter-count.html -%}
