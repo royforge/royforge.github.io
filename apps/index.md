@@ -9,5 +9,6 @@ layout: page
 title: apps
 permalink: /apps/
 image: /assets/logo/royforge-logo-no-bg.png
+description: Small utility apps forged by Koyeli Roy and Pradyumna Roy (Prady Roy).
 ---
 Test

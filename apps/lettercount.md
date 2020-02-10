@@ -7,7 +7,7 @@
 #
 layout: page
 title: Letter Count
-permalink: /lettercount
+permalink: /apps/lettercount
 image: /assets/logo/royforge-logo-white-bg.png
 ---
 {%- include app-letter-count.html -%}
