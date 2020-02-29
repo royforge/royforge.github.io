@@ -6,9 +6,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: page
-title: apps
-permalink: /apps/
+title: projects
+permalink: /projects/
 image: /assets/logo/royforge-logo-no-bg.png
-description: Small utility apps forged by Koyeli Roy and Pradyumna Roy (Prady Roy).
+description: Github projects developed by Koyeli Roy and Pradyumna Roy (Prady Roy).
 ---
 {%- include under-construction.html -%}
