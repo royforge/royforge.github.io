@@ -64,11 +64,7 @@ body {
 	vertical-align: middle;
 	path
 	{
-	fill
-	:
-	#2a7ae2;
-}
-
+	fill: #2a7ae2;}
 }
 .profilepic {
 	height: 80px;
@@ -117,6 +113,47 @@ body {
 		display: none;
 	}
 }
+
+.r-red{
+  color: #E57368;
+}
+
+.r-green{
+  color: #33B679;
+}
+
+.r-blue{
+  color: #76A7FA;
+}
+
+.r-yellow{
+  color: #FBCB43;
+}
+
+.carousel{
+  margin-top: 20px;
+}
+.carousel-inner{
+  height: 250px;
+}
+.carousel-caption{
+  color: #000;
+  top: 50%;
+}
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+	background-color: #4285F4;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234285F4' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234285F4' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3E%3C/svg%3E");
+}
 </style>
 
 <link type="application/atom+xml" rel="alternate" href="https://royforge.github.io/feed.xml" title="royforge" />
@@ -125,7 +162,7 @@ body {
 <body itemscope itemtype="http://schema.org/WebApplication">
 	
 	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-		<a class="navbar-brand" href="https://royforge.github.io/"><img
+		<a class="navbar-brand" href="/"><img
 			class='site-logo' src="/assets/logo/royforge-logo.svg" />royforge</a>
 
 		<!-- 
@@ -136,36 +173,93 @@ body {
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a class="nav-link"
-					href="https://royforge.github.io/" target="_blank">royforge</a></li>
+				<li class="nav-item"><a class="nav-link" href="https://royforge.github.io/" target="_blank">royforge</a></li>
 			</ul>
 		</div>
-		-->
+		 -->
 	</nav>
 
 	<main role="main" class="container">
-		<style type="text/css" media="screen">
-			.container {
-				margin: 10px auto;
-				max-width: 600px;
-				text-align: center;
-			}
 
-			h1 {
-				margin: 30px 0;
-				font-size: 4em;
-				line-height: 1;
-				letter-spacing: -1px;
-			}
-		</style>
+		Software Developer and Tester resume building, training and
+		certification to enable 2019 and 2020 Computer Science and
+		Engineering, Information Technology and MCA passouts for IT jobs.
 
-		<div class="container">
-			<h1>404</h1>
-			<p>
-				<strong>Page not found :(</strong>
-			</p>
-			<p>The requested page could not be found.</p>
+		<div id="carouselExampleControls" class="carousel slide"
+			data-interval="20000" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-caption">
+						<h3 class="r-red">2019 or 2020 passout?</h3>
+						<p class="r-green">Secure Borderless Remote Work Spaces will be the new normal
+						   for IT industry. Royforge presents 5 stage preparation,
+						   training and certification program.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-yellow">1. Resume Building</h3>
+						<p class="r-blue">Build your resume in MS Word, LinkedIn and Naukri.com.
+							Learn to defend it. Sample interview questions based on resume.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-green">2. Business Communication</h3>
+						<p class="r-red">Learn how to write professional emails, official messages
+							over skype, MS Teams, conference calls etc.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-blue">3. Source/Version Control System</h3>
+						<p class="r-yellow">Learn github for source or version control.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-red">4. Agile Scrums</h3>
+						<p class="r-blue">Project Management, Daily Scrum, Wiki, Issue tracking and
+							Releases.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-yellow">5. Projects</h3>
+						<p class="r-green">Professionally built projects with Project Report,
+							presentations and project related interview questions and
+							answers.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+						<h3 class="r-blue">Certification and Listing</h3>
+						<p class="r-red">Each of the above stages are followed by objective type
+						   tests which if passed, <span class="r-green">a certificate</span> is issued.</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls"
+				role="button" data-slide="prev"> <span
+				class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+				class="sr-only">Previous</span>
+			</a> <a class="carousel-control-next" href="#carouselExampleControls"
+				role="button" data-slide="next"> <span
+				class="carousel-control-next-icon" aria-hidden="true"></span> <span
+				class="sr-only">Next</span>
+			</a>
+
 		</div>
+
 	</main>
 	
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
