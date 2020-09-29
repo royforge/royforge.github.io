@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<link href="https://royforge.github.io/feed.xml" rel="self" type="application/atom+xml" />
-	<link href="https://royforge.github.io/" rel="alternate" type="text/html" />
-	<updated>2020-09-28T11:48:15+05:30</updated>
+	<link href="https://royforge.github.io/feed.xml" rel="self"
+		type="application/atom+xml" />
+	<link href="https://royforge.github.io/" rel="alternate"
+		type="text/html" />
+	<updated>2020-09-29T12:55:15+05:30</updated>
 	<id>https://royforge.github.io/feed.xml</id>
 	<title type="html">royforge</title>
 	<subtitle>
-		Software Developer and Tester resume building, training and
-		certification to enable 2019 and 2020 Computer Science and
-		Engineering, Information Technology and MCA passouts for IT jobs.
+		sample resume for fresher, java interview questions, full
+		stack developer interview questions, devops interview questions,
+		software testing interview questions, fresher interview questions,
+		fresher study guide, fresher interview guide, projects for freshers,
+		guide for job interview, job interview questions, interview
+		preparation tips, interview tips and tricks, interview tips for
+		freshers, it jobs for freshers, fresher job openings, jobs for
+		software engineers.
 	</subtitle>
 </feed>
