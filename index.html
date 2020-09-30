@@ -74,6 +74,11 @@ body {
 	float: left;
 }
 
+.vcard {
+	height: 100px;
+	width: auto;
+}
+
 .right-text {
 	text-align: right;
 }
@@ -92,7 +97,7 @@ body {
 	width: 55%;
 }
 
-.clearpara {
+.clearprev {
   clear: both;
 }
 
@@ -135,7 +140,14 @@ body {
 			class="img-fluid res-download float-right cursor-pointer"
 			alt="Download Sample Resume"
 			onclick="document.location='https://royforge.github.io/docs/cv/xyz-bindu.docx';return false;" />
-		<p class="text-center clearpara">
+			
+		<img src="/assets/contact/royforge-vcard.jpg"
+			class="img-fluid vcard mx-auto d-block cursor-pointer clearprev"
+			alt="Add to Contact"
+			onclick="document.location='https://royforge.github.io/assets/contact/royforge.vcf';return false;" />
+		<p class="text-center font-weight-bold clearprev">ADD TO CONTACT</p>
+			
+		<p class="text-center clearprev">
 			<b>COMING SOON:</b> sample resume for fresher, java interview
 			questions, full stack developer interview questions, devops interview
 			questions, software testing interview questions, fresher interview
@@ -145,10 +157,7 @@ body {
 			freshers, it jobs for freshers, fresher job openings, jobs for
 			software engineers.
 		</p>
-		<img src="/assets/img/subscribe-on-youtube.png"
-			class="img-fluid yt-subscribe mx-auto d-block cursor-pointer"
-			alt="Subscribe to Youtube Channel"
-			onclick="window.open('https://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw?sub_confirmation=1', '_blank');return false;" />
+		
 	</main>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
