@@ -1,0 +1,37 @@
+<html>
+<head>
+<!--
+<script type="text/javascript">
+    function DetectDevice()
+    {
+       var uagent = navigator.userAgent.toLowerCase();
+       if (uagent.search("iphone") > -1 || uagent.search("ipad") > -1 
+       || uagent.search("android") > -1 || uagent.search("blackberry") > -1
+       || uagent.search("webos") > -1)
+          window.location.href ="otherindex.html";
+    }
+</script>
+-->
+<script type="text/javascript">
+function DetectDevice(){
+var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) ? true : false );
+//iOS = true;
+if(iOS){
+	window.location.href = 'vnd.youtube://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw';
+}
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if( isAndroid ){
+	window.location.href = 'intent://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw#Intent;package=com.google.android.youtube;scheme=https;end';
+}
+
+if (!iOS && !isAndroid){
+    window.location.href = 'https://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw';
+}
+
+}
+</script>	
+</head>
+<body onload="DetectDevice()">
+</body>
+</html>
