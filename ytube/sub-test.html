@@ -22,7 +22,8 @@ if(iOS){
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 if( isAndroid ){
-	window.location.href = 'intent://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw#Intent;package=com.google.android.youtube;scheme=https;end';
+	//window.location.href = 'intent://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw#Intent;package=com.google.android.youtube;scheme=https;end';
+	window.location.href = 'https://www.youtube.com/channel/UCjKIkD8mJBomisa5Mp_3Kvw';
 }
 
 if (!iOS && !isAndroid){
