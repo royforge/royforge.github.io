@@ -61,6 +61,14 @@ theme: royforge
 lang: en_IN
 locale: en_IN
 
+social:
+  name: royforge
+  links:
+    - https://www.youtube.com/c/royforge
+    - https://github.com/royforge
+
+logo: /assets/logo/royforge-logo.png
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
