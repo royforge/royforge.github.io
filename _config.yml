@@ -3,8 +3,7 @@ author:
   name: Pradyumna Roy (Prady Roy)
   email: royforge.in@gmail.com
   
-tagline: > # this means to ignore newlines until "description:"
-  the school of engineering
+tagline: the school of engineering
 
 description: > # this means to ignore newlines until "show_excerpts:"
   The school of engineering dedicated to computing practices, tools 
