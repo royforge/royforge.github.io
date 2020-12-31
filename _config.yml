@@ -1,0 +1,67 @@
+title: royforge
+author:
+  name: Pradyumna Roy (Prady Roy)
+  email: royforge.in@gmail.com
+  
+tagline: > # this means to ignore newlines until "description:"
+  the school of engineering
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  The school of engineering dedicated to computing practices, tools 
+  and technologies for developing expertise in software development, 
+  microservices architecture, devops, cloud computing and software testing.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+# royforge date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+royforge:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    # twitter: xyz
+    github:  royforge
+    # devto: xyz
+    # dribbble: xyz
+    # facebook: xyz
+    # flickr:   xyz
+    # instagram: xyz
+    # linkedin: xyz
+    # pinterest: xyz
+    # youtube: xyz
+    youtube_channel: royforge
+    youtube_channel_name: royforge
+    # telegram: xyz
+    # googleplus: +xyz
+    # microdotblog: xyz
+    # keybase: xyz
+
+    # Mastodon instances
+    # mastodon:
+    # - username: xyz1
+    #   instance: example.com
+    # - username: xyz2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: xyz1
+    #   instance: example.com
+    # - username: xyz2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: royforge
+
+lang: en_IN
+locale: en_IN
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
