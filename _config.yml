@@ -6,9 +6,9 @@ author:
 tagline: the school of engineering
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  The school of engineering dedicated to computing practices, tools 
+  the school of engineering dedicated to computing practices, tools 
   and technologies for developing expertise in software development, 
-  microservices architecture, devops, cloud computing and software testing.
+  microservices architecture, devops, cloud computing and software testing
 
 show_excerpts: false # set to true to show excerpts on the homepage
 # royforge date format
