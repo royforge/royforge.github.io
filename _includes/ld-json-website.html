@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ title }}",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "url": "{{ page.url | absolute_url }}",
+  "sameAs": [
+    "https://www.youtube.com/c/{{ site.royforge..social_links.youtube_channel }}",
+    "https://github.com/{{ site.royforge..social_links.github }}"
+  ],
+  "author": [
+    {% for author in site.data.authors %}{
+	{% include ld-json-person.html persondata = author %}
+    }{% if forloop.last != true %},
+    {% endif %}{% endfor %}
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | absolute_url }}"
+    }
+  }
+  }

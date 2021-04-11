@@ -1,14 +1,10 @@
 title: royforge
-author:
-  name: Pradyumna Roy (Prady Roy)
-  email: royforge.in@gmail.com
-  
 tagline: the school of engineering
+logo: /assets/logo/royforge-logo.png
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  the school of engineering dedicated to computing practices, tools 
-  and technologies for developing expertise in software development, 
-  microservices architecture, devops, cloud computing and software testing
+  the school of engineering for training and internship in software development, 
+  cloud native, microservices, devops and software testing
 
 show_excerpts: false # set to true to show excerpts on the homepage
 # royforge date format
@@ -18,36 +14,15 @@ royforge:
 
   # generate social links in footer
   social_links:
-    # twitter: xyz
-    github:  royforge
-    # devto: xyz
-    # dribbble: xyz
-    # facebook: xyz
-    # flickr:   xyz
-    # instagram: xyz
-    # linkedin: xyz
-    # pinterest: xyz
-    # youtube: xyz
     youtube_channel: royforge
     youtube_channel_name: royforge
+    github:  royforge
+    # facebook: xyz
+    # instagram: xyz
+    # linkedin: xyz
     # telegram: xyz
-    # googleplus: +xyz
-    # microdotblog: xyz
-    # keybase: xyz
-
-    # Mastodon instances
-    # mastodon:
-    # - username: xyz1
-    #   instance: example.com
-    # - username: xyz2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: xyz1
-    #   instance: example.com
-    # - username: xyz2
-    #   instance: example.com
+    # twitter: xyz
+    # devto: xyz
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -58,15 +33,10 @@ royforge:
 theme: royforge
 
 lang: en_IN
-locale: en_IN
 
-social:
-  name: royforge
-  links:
-    - https://www.youtube.com/c/royforge
-    - https://github.com/royforge
-
-logo: /assets/logo/royforge-logo.png
+collections:
+  articles:
+    output: true
 
 plugins:
  - jekyll-feed

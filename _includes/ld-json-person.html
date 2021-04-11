@@ -1,0 +1,8 @@
+{% assign person = include.persondata %}"@type": "Person",
+    "name": "{{ person.name }}",
+    "url": "{{ person.linkedin }}",
+    "image": "{{ person.img }}",
+    "sameAs": [
+      {% for link in person.links %}"{{ link }}"{% if forloop.last != true %},
+      {% endif %}{% endfor %}
+    ]

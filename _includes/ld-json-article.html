@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "image": "{{ page.img }}",
+  "datePublished": "{{ page.dp }}T00:00:00+05:30",
+  "dateModified": "{{ page.dm }}T00:05:00+05:30",
+  "url": "{{ page.url | absolute_url }}",
+  "author": [
+    {% for author in site.data.authors %}{
+	{% include ld-json-person.html persondata = author %}
+    }{% if forloop.last != true %},
+    {% endif %}{% endfor %}
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | absolute_url }}"
+    }
+  }
+  }
