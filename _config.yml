@@ -4,9 +4,9 @@ logo: /assets/logo/royforge-logo.png
 
 description: > # this means to ignore newlines until "show_excerpts:"
   the school of engineering for training and internship in software development, 
-  cloud native, microservices, devops and software testing
+  cloud native, microservices, DevOps, and software testing
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the articles list page
 # royforge date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 royforge:

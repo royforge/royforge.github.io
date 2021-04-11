@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{{ content }}
+{% assign posts = site.articles | sort: 'dm' | reverse %}
+{%- if posts.size > 0 -%}
+  <ul style="list-style-type:none;">
+  {%- assign date_format = site.royforge.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in posts -%}
+  {%- if post.title != 'Articles' and post.title != 'Sample Article' -%}
+    <li>
+    <span>{{ post.dm | date: date_format }}</span>
+    <h6><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h6>
+    {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+    </li>
+  {%- endif -%}
+  {%- endfor -%}
+  </ul>
+{%- endif -%}
