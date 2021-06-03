@@ -8,4 +8,4 @@ permalink: /mahinotes
 excerpt: Mahi notes for CBSE Class 10 2021 - 2022 science, mathematics/maths and computer science
 ---
 
-1. [Science | Physics | Chapter 10 | Light – Reflection and Refraction]({% link _mahinotes/sci-chap10.md %})
+1. [Science | Physics | Chapter 10 | Light – Reflection and Refraction](/mahinotes/sci-chap10)
