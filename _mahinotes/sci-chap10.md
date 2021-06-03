@@ -111,5 +111,43 @@ excerpt: Mahi notes for CBSE Class 10 2021 - 2022 Science | Physics | Chapter 10
 
 {% include yt.html yt_id="gPYlVBB8gyY" start="1" end="252" %}
 
+---
 
+9.) Convex Mirror Image and it's properties
+- Actions: 
+	1. Make note of image positions and properties table in your notebook
+	2. Watch the live experiment in next video
+
+{% include yt.html yt_id="z0t989Dob2o" start="16" end="154" %}
+
+---
+
+10.) Convex Mirror Experiment
+- Actions: Just watch the video
+
+{% include yt.html yt_id="ms2D0tTqmBA" start="18" end="60" %}
+
+---
+
+11.) Ray Diagram for Concave Mirror - Part 1
+- Actions: 
+	1. Draw all the Ray diagrams in your copy
+
+{% include yt.html yt_id="n-SLx3MWHnM" start="8" end="321" %}
+
+---
+
+12.) Ray Diagram for Concave Mirror - Part 2
+- Actions: 
+	1. Draw all the Ray diagrams in your copy
+
+{% include yt.html yt_id="bq-WB0pO6cQ" start="5" end="378" %}
+
+---
+
+13.) Ray Diagram for Convex Mirror
+- Actions: 
+	1. Draw all the Ray diagrams in your copy
+
+{% include yt.html yt_id="z0t989Dob2o" start="154" end="389" %}
 
